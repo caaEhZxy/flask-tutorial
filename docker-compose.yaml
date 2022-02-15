@@ -1,0 +1,6 @@
+services:
+  flask-tutorial:
+    image: pass.nutsb.com/flask-tutorial:latest
+    ports:
+      - "8008:8888"
+    container_name: flask-tutorial
